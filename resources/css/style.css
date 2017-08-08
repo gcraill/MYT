@@ -6,6 +6,7 @@
 header.header-bar {
   display: flex;
   align-items: center; 
+	flex-wrap: wrap;
   font-family: Verdana;
 	font-size: 14px;
 	font-weight: bold;
@@ -16,6 +17,7 @@ header.header-bar {
 .site-logo {
 	display: flex;
 	align-items: center; 
+	flex-wrap: wrap;
 	flex-grow: 1;
 	padding-left: 30px;
 }
@@ -50,6 +52,7 @@ main {
 	display: flex;
 	justify-content: center;
 	align-items: flex-start;
+	flex-wrap: wrap;
 	margin: auto;
 	padding-top: 50px;
 	padding-bottom: 50px;
@@ -58,6 +61,7 @@ main {
 .column {
 	display: flex;
 	flex-direction: column;
+	flex-wrap: wrap;
 	margin-right: 32px;
 }
 .column.large {
